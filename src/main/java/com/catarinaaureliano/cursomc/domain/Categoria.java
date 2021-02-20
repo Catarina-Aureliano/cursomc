@@ -13,6 +13,7 @@ public class Categoria implements Serializable {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	// esse identity é para geração da chave primária
 	private Integer id;
 	private String nome;
 	
